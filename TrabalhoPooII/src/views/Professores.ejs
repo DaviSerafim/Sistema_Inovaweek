@@ -1,0 +1,20 @@
+<h1>Lista de Professores</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Nome</th>
+            <th>Matrícula</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let avaliador of avaliador) { %>
+            <tr>
+                <td><%= professor.idprofessor %></td>
+                <td><%= professor.nome %></td>
+                <td><%= professor.matricula %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
